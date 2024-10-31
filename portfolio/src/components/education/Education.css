@@ -1,0 +1,49 @@
+.edu h1 {
+    font-size: 41px;
+    font-weight: 700;
+    text-shadow: -1px -1px 20px rgba(61, 60, 60, 0.562);
+    border-bottom: 3px solid red;
+    width: 240px;
+}
+
+.btech {
+    color: rgb(88, 87, 87);
+}
+
+.btech h6 {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+
+}
+.btech p{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@media (min-width:0px) and (max-width:576px) {
+    .edu h1 {
+        font-size: 29px;
+        font-weight: 700;
+        text-shadow: -1px -1px 20px rgba(61, 60, 60, 0.562);
+        /* height: 54px; */
+        width: 171px;
+        border-bottom: 2px solid rgb(243, 5, 5);
+    }
+
+    .btech {
+        color: rgb(88, 87, 87);
+    }
+
+    .btech h6 {
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+
+    }
+
+    .btech p {
+        font-size: 11px;
+    }
+
+}

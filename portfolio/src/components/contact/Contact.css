@@ -1,0 +1,139 @@
+.contact h1 {
+    font-size: 41px;
+    font-weight: 700;
+    text-shadow: -1px -1px 20px rgba(61, 60, 60, 0.562);
+    border-bottom: 3px solid rgb(219, 5, 5);
+    width: 194px;
+}
+
+.subcontact h6 {
+    font-size: 25px;
+    color: red;
+}
+
+
+.button {
+    background-color: white !important;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: rgba(252, 69, 69, 0.952) !important;
+    color: rgb(253, 251, 251) !important;
+}
+
+
+
+.contact-logos {
+    font-size: 42px;
+    color: white;
+
+
+}
+
+.social {
+    margin-right: 13px;
+
+    transition: ease-in-out;
+}
+
+.social:hover {
+    color: rgba(248, 77, 77, 0.904);
+    transition-duration: 0.4s;
+
+}
+
+
+@media (min-width:0px) and (max-width:576px) {
+    .contact h1 {
+        font-size: 29px;
+        font-weight: 700;
+        /* height: 54px; */
+        width: 140px;
+        border-bottom: 2px solid rgb(243, 5, 5);
+    }
+
+    .subcontact h6 {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px;
+    }
+
+    .button {
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-logos {
+        font-size: 26px;
+        color: white;
+
+
+    }
+
+    .social {
+        margin-right: 13px;
+
+        transition: ease-in-out;
+    }
+
+    .social:hover {
+        color: rgba(243, 70, 70, 0.904);
+        transition-duration: 0.5s;
+
+    }
+
+    .contactsub-2 h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .contact h1 {
+        font-size: 29px;
+        font-weight: 700;
+        /* height: 54px; */
+        width: 140px;
+        border-bottom: 2px solid rgb(243, 5, 5);
+    }
+
+    .subcontact h6 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .button {
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-logos {
+        font-size: 26px;
+        color: white;
+        margin: 10px 10px;
+
+
+    }
+
+    .social {
+        margin-right: 13px;
+
+        transition: ease-in-out;
+    }
+
+    .social:hover {
+        color: rgba(243, 70, 70, 0.904);
+        transition-duration: 0.5s;
+
+    }
+
+    .contactsub-2 h2 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}

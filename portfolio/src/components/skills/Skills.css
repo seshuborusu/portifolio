@@ -1,0 +1,99 @@
+.skill-container {
+    padding: 35px;
+    height: 200px;
+
+    text-align: center;
+    box-shadow: 12px 12px 25px rgba(165, 181, 248, 0.4);
+    /* border: 1px solid red; */
+    
+}
+.skill-container:hover{
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.skill h1{
+    font-size: 41px;
+    font-weight: 700;
+    text-shadow: -1px -1px 20px rgba(61, 60, 60, 0.562);
+    border-bottom: 3px solid red;
+    width: 144px;
+}
+.skill-container h3{
+    font-weight:500;
+    font-size: 25px;
+    /* color: rgba(4, 4, 190, 0.959); */
+    color: red;
+    padding: 5px;
+}
+.skill-container p{
+    color: black;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.familier h6{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(65, 64, 64);
+    letter-spacing: 1px;
+
+}
+.html-icon{
+    font-size: 32px;
+    padding: 7px;
+    color: orangered;
+}
+.html-icon:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    /* background-color: rgba(190, 205, 226, 0.185); */
+
+    border-radius: 18px;
+
+}
+.html-icon span{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+@media (min-width:0px) and (max-width:576px) {
+    .skill-container {
+        padding: 35px;
+        height: 180px;
+    
+        /* border: 1px solid red; */
+        
+    }
+    .skill h1{
+        font-size: 29px;
+        font-weight: 700;
+        width: 107px;
+        border-bottom: 2px solid rgb(243, 5, 5);
+    }
+    .skill-container h3{
+        font-weight: 500;
+        font-size: 19px;
+    }
+    .skill-container p{
+        font-size: 14px;
+        font-weight: 400!important;
+    } 
+
+
+    .familier h6{
+        font-size: 14px;
+    }
+    .html-icon{
+        font-size: 26px;
+        
+        color: orangered;
+    }
+    .html-icon span{
+        font-size: 14px;
+        color: black;
+        font-weight: 400;
+    }
+}

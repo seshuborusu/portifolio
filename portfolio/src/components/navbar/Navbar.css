@@ -1,0 +1,48 @@
+.navnames::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #fa0303;
+    transition: width .6s;
+}
+.navnames:hover::after{
+    /* border-bottom: 2px solid red; */
+    width: 105%;
+
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .navbar-nav.logos{
+        display: block;
+        margin: 0px !important;
+        color: white;
+    }    
+    
+    }
+    .navlogo{
+        color: rgba(255, 255, 255, 0.623);
+        transition-duration: 0.2s;
+    }
+   .navlogo:hover{
+color: white;
+   }
+    #button{
+        /* border: 1px solid gray; */
+        font-weight: 550;
+        padding: 5px 11px;
+        /* border-radius: 8px; */
+        color: black;
+        /* background-color: gray; */
+        /* border: 1px solid white; */
+        background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, rgb(139, 32, 0), darkorchid,blue) border-box;
+  border-radius: 50em;
+  border: 3px solid transparent;
+    }
+    #button:hover{
+        background-color: red;
+    }
+    
+    
+    

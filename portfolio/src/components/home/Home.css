@@ -1,0 +1,139 @@
+/* #root{
+    background-color: whitesmoke;
+} */
+ .home{
+    /* background-color: rgba(253, 231, 204, 0.822); */
+    padding: 41px;
+    background-image: url("https://wallpaperaccess.com/full/5652030.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    
+    height: 91vh;
+    width: 100%;
+ }
+.welcome{
+    font-size: 78px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* font-family: cursive; */
+    color: white;
+    /* text-shadow: -6px -1px 10px rgba(196, 189, 189, 0.699); */
+
+}
+
+.main{
+    
+    font-size: 78px;
+    /* font-family: "Great Vibes", cursive; */
+    /* font-family: "Grey Qo", cursive; */
+    font-weight: 700;
+    color: red;
+}
+.main span{
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: 600;
+}
+.designation {
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important  ;
+    font-weight: 600!important;
+    font-size: 25px;
+    letter-spacing: 0px;
+    font-family: "Dancing Script", cursive;
+}
+
+/* Mobile Screens (0px to 576px) */
+@media (min-width: 0px) and (max-width: 576px) {
+    .home {
+        padding: 70px 10px;
+        height: 85vh;
+    }
+    .welcome {
+        font-size: 38px;
+        font-weight: 700;
+      
+    }
+    .main {
+        margin-top: 30px !important;
+        font-size: 38px;
+        font-family: "Great Vibes", cursive;
+        font-weight: 600;
+       
+    }
+    .main span {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .para {
+        font-size: 12px !important;
+        font-weight: 500;
+    }
+}
+
+/* Small Tablets (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+   
+    .welcome {
+        font-size: 45px;
+    }
+    .main {
+        font-size: 35px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .main span {
+        font-size: 25px;
+    }
+    .para {
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+/* Tablets (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .home {
+        padding: 40px 0px;
+        /* height: 84vh; */
+    }
+   
+    .welcome {
+        font-size: 55px;
+
+        /* text-shadow: -6px -1px 12px rgba(196, 189, 189, 0.699); */
+    }
+    .main {
+        font-size: 49px;
+    }
+    .main span {
+        font-size: 38px;
+    }
+    .para {
+        font-size: 16px;
+    }
+}
+
+/* Laptops (1025px to 1440px) */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    
+    .welcome {
+        font-size: 60px;
+
+        /* text-shadow: -6px -1px 12px rgba(196, 189, 189, 0.699); */
+    }
+    .main {
+        font-size: 59px;
+    }
+    .main span {
+        font-size: 41px;
+    }
+    .para {
+        font-size: 16px;
+    }
+}
+
+
+/* Desktops (1441px and above) */
