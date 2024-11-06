@@ -24,21 +24,21 @@ function Contact() {
         setUserdata({ ...userdata, [e.target.name]: e.target.value })
     }
     const getUsersData = () => {
-        if (userdata.name !== '' && userdata.mobile !== '' && userdata.email !== '') {
-            // setuserslist([...userslist, userdata])
-            // const updatedlist=[...userslist,userdata];
+        if (userdata.name !=="" && userdata.mobile !=="" && userdata.email !== "") {
+            console.log(userdata.name);
             setuserslist([...userslist, userdata])
             dispatch(Action(userdata))
+            setUserdata({
+
+                name: "",
+                mobile: "",
+                email: ""
+            })
         }
         else {
             alert("Please enter all details")
         }
-        setUserdata({
-
-            name: "",
-            mobile: "",
-            email: ""
-        })
+       
 
     }
 

@@ -9,6 +9,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
+import {FaGit} from "react-icons/fa";
 
 
 function Skills() {
@@ -68,11 +69,14 @@ function Skills() {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6 html-icon text-dark">
                     <SiExpress /> <span>Express JS</span>
                 </div>
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6 html-icon ">
+                <FaGit/> <span>Git</span> 
+                </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6 html-icon text-dark">
                     <FaGithub /> <span>Github</span>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6 html-icon text-primary">
-                    <VscVscode /> <span>VS code</span>
+                    <VscVscode /> <span>VS code</span> 
                 </div>
             </div>
         </div>

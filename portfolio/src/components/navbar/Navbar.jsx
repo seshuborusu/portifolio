@@ -6,7 +6,7 @@ import "./Navbar.css"
 function Navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-dark navbar-dark h-25">
+            <nav className="navbar navbar-expand-md bg-dark navbar-dark h-25">
                 <div className=" container ">
                     <a className="navbar-brand fs-4 fw-bold" href="#">SESHU.com</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
