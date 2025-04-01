@@ -46,7 +46,7 @@
 @media (min-width: 0px) and (max-width: 576px) {
     .home {
         padding: 40px 10px;
-        height: 85vh;
+        /* height: 85vh; */
     }
     .welcome {
         font-size: 40px!important;
@@ -76,10 +76,10 @@
     padding-top: 70px;
    }
     .welcome {
-        font-size: 35px!important;
+        font-size: 45px!important;
     }
     .main {
-        font-size: 42px!important;
+        font-size: 48px!important;
         font-weight: 600;
         letter-spacing: 1px;
     }
@@ -87,7 +87,7 @@
         font-size: 32px!important;
     }
     .para {
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 500;
     }
 }

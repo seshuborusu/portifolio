@@ -15,7 +15,7 @@ import {FaGit} from "react-icons/fa";
 function Skills() {
     return (
         <div className="container p-3 ">
-            <div className="skill"><h1>SKILLS</h1></div>
+            <div className="skill"><h1>SKILLS</h1></div>    
             <div className="row my-3 row-gap-4">
                 <div className="col-lg-4 col-sm-12 col-md-6">
                     <div className="skill-container">

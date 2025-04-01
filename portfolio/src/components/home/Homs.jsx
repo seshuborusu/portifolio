@@ -1,5 +1,4 @@
 import "./Home.css"
-import res from "../about/copy.jpg"
 import s from "../home/s.pdf"
 function Home() {
     return (
